@@ -9,7 +9,6 @@ namespace Empresa
 {
     class ApplicationDbContext: DbContext
     {
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // El connectionString debe venir de un archivo de configuraciones!
